@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=x.y
+Name=a
+Comment=This is my comment
+#Exec=/home/yellow/Desktop/helloWorld
+Exec=bash -c '"$(dirname "$1")"/client' dummy %k
+
+# If yo want to have an Icon set the Icon path.
+#Icon=/home/yellow/Desktop/icon.png
+
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+Name[en_US]=client.desktop
